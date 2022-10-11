@@ -15,7 +15,9 @@ cancelBtn.addEventListener("click", function (){
 })
 modalFileBtn.addEventListener("click", function(){
     modalPost2.classList.add("modal2-active");
+    modalBtn.classList.remove("modal-active");
 })
 modalBackBtn.addEventListener("click", function(){
     modalPost2.classList.remove("modal2-active");
+    modalBtn.classList.add("modal-active");
 })

@@ -139,11 +139,14 @@ hr{
     max-width: 800px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px 10px;
     background-color: #fff;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+.modal-box__titles{
+    justify-content: space-between;
 }
 .modal-box__back{
     width: 20px;
